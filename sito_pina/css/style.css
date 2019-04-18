@@ -1,0 +1,55 @@
+
+
+*{
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+}
+
+footer{
+  color: red;
+}
+
+ul.topnav{
+  list-style-type: none;  /*toglie l'elenco puntato*/
+  margin: 0;
+  padding: 0;
+  background-color: #AA8C39;
+  overflow: hidden;
+}
+
+ul.topnav li{
+  float:left;
+}
+
+ul.topnav li a{
+  text-decoration: none;
+  padding: 0px 10px;
+}
+
+div.container-description {
+  box-shadow: 5px 5px 5px #C7C7C7;
+  border-radius: 10px;
+  position: relative;
+}
+
+div.container{
+  width: 90%;     /*Imposta larghezza in base alla size dello schermo*/
+  margin: 0 auto; /*Centra */
+}
+div img{
+  width: 100%;
+}
+
+h1.title{
+  margin: 0;
+  display: block;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+
+}
+
+h3{
+  font-size: 0.5em;
+  text-align: right;
+}
